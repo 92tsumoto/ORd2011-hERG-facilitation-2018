@@ -1,0 +1,128 @@
+/* Model type */
+/* model_type == 0 --> using drug concentration */
+/* model_type == 1 --> using block rate  */
+0
+
+/* Drug type */
+/* drug_type == 0 --> without facilitation */
+/* drug_type == 1 --> with facilitation  */
+0
+
+/* cell type */
+/* celltype == 1 --> Endo */
+/* celltype == 2 --> Mid  */
+/* celltype == 3 --> Epi  */
+1
+
+/* Base cycel length */
+//500
+//1000
+2000
+
+/* ndis */
+//0.002		// for 1ms pulse width with BCL500
+//0.001		// for 1ms pulse width with BCL1000
+0.0005	// for 1ms pulse width with BCL2000
+
+/* Istim */
+-80.0	
+
+/* gkr */
+0.058
+
+/* Block rate */
+0.5
+
+/* drug concentration */
+0.0E-9        //0%Ikr inhibition
+//100.0E-9		// ~50%Ikr inhibition
+
+/* block parameters */
+/* IC50 (nM), hill coefficent */
+145.0E-9        1.15
+
+/* fraction parameters */
+/* EC50 (nM), fhill coefficent */
+92.8E-9       1.50
+
+/* S2 stimuli */
+400
+
+/* number of datas */
+1
+
+/* line width */
+2
+
+/* initial states */
+-8.751860905835093e+01
+7.710177676855066e-03
+6.811024596127156e-01
+6.810916894325798e-01
+6.810365379273914e-01
+4.353691820671892e-01
+6.810032074675452e-01
+2.063968739115712e-04
+4.960165591029833e-01
+2.845965868034858e-01
+1.034268979777651e-03
+9.995147777568152e-01
+8.385696449901155e-01
+5.269965567582127e-04
+9.995147824971373e-01
+8.733778277124216e-01
+2.624810306475185e-09
+9.999999895971260e-01
+9.522310064306183e-01
+9.999999895971706e-01
+9.999999233807418e-01
+9.999999891602647e-01
+9.999999895952014e-01
+9.999999895953211e-01
+1.218027826039023e-03
+3.124510223693501e-05
+1.086079942579841e-01
+1.999318818829266e-01
+2.035541033912572e-04
+9.968841051982620e-01
+1.599743438245672e-03
+3.434063885748354e-09
+4.292788245810749e-09
+7.616809916313964e+00
+7.616907553114345e+00
+1.435650749039531e+02
+1.435650597358051e+02
+7.159151215665823e-05
+6.874336529386408e-05
+8.083448174446557e-01
+8.103955040917589e-01
+1.450510083537975e-03
+1.285897606017581e-01
+
+/* direction of time */
+1
+
+/* end time. 0.0 = nolimit of integration */ 
+0
+
+/* dIstim */
+0.01
+
+1			/* number of period */
+100	    	/* strip for integral */
+0			/* poincare flag 0 --- poincare/1 --- orbit */
+0			/* write file 0 --- not write/1 --- write */
+0			/* write flag 0 --- poincare/1 --- orbit */
+0			/* if 1 then period is PI*/
+0			/* data output swithc; if 1 then data out*/
+1			/* screen output swithc; if 1 then data out*/
+0			/* current data output; if 1 then data out*/
+
+100 600 100 600     /* graph location */
+-100 60 -20 400	/* scaling */
+30 100 1 1     /* label strip & interval */
+1 1                 /* floating point */
+1                   /* axis/grid */
+-sony-fixed-medium-r-normal--24-170-100-100-c-120-iso8859-1 /* font */
+-212 -460 -40 -288      /* arrow */
+1                   /* command */
