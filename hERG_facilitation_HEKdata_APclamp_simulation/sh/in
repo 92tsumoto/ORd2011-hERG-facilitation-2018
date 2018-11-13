@@ -1,0 +1,72 @@
+
+/* mode type */
+/* mode == 0 --> Orinal ORd */
+/* mode == 1 --> mORd */
+0
+
+
+/* cell type */
+/* celltype == 0 --> ENDO */
+/* celltype == 1 --> MID */
+/* celltype == 2 --> EPI */
+0
+
+/* Drug type */
+/* drug_type == 0 --> pure herg blocker */
+/* drug_type == 1 --> with facilitation */
+1
+
+/* numbers of channel */
+60
+
+/* start clamp voltage */
+-80
+
+/* clamp voltage */
+-80
+
+/* intra/extra K ion concentrations */
+120.0 4.0
+
+/* IKr conductance modulation */
+1.6
+
+/* Drug concentration */
+//0.0
+100.0
+
+/* number of data */
+1
+
+/* line width */
+1
+
+/* x1, y1 */
+0.0
+0.0
+0.0
+0.0
+
+/* direction of time */
+1
+/* end time. 0.0 = nolimit of integration */ 
+0
+
+/* pulse end time */
+4000
+
+1		/* number of period */
+100	    /* strip for integral */
+1		/* poincare flag 0 --- poincare/1 --- orbit */
+0		/* write file 0 --- not write/1 --- write */
+0		/* write flag 0 --- poincare/1 --- orbit */
+0		/* if 1 then period is PI*/
+
+100 600 100 600     /* graph location */
+0 8000 -0.2 1.2		/* scaling */
+2000 1 1 1     /* label strip & interval */
+1 1                 /* floating point */
+1                   /* axis/grid */
+-sony-fixed-medium-r-normal--24-170-100-100-c-120-iso8859-1 /* font */
+-212 -460 -40 -288      /* arrow */
+1                   /* command */
